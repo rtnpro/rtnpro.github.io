@@ -2,7 +2,7 @@ baseURL = "https://rtnpro.com/"
 disablePathToLower = true
 languageCode = "en-us"
 title = "rtnpro"
-theme = "hugo-PaperMod"
+theme = "PaperMod"
 enableRobotsTXT = "true"
 enableEmoji = "true"
 
