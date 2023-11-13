@@ -1,0 +1,63 @@
+baseURL = "https://rtnpro.com/"
+disablePathToLower = true
+languageCode = "en-us"
+title = "rtnpro"
+theme = "hugo-PaperMod"
+enableRobotsTXT = "true"
+enableEmoji = "true"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.taxonomies]
+      category = "categories"
+      tag = "tags"
+      series = "series"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Archive"
+        url = "archives/"
+        weight = 5
+      [[languages.en.menu.main]]
+        name = "Search"
+        url = "search/"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags/"
+        weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  [params.homeInfoParams]
+    title = "Ratnadeep Debnath | @rtnpro"
+    content = "Thinker, creator, wannabe hero"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/rtnpro"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://in.linkedin.com/in/rtnpro"
+
+  [[params.socialIcons]]
+    name = "facebook"
+    url = "https://www.facebook.com/rtnpro"
+
+  defaultTheme = "auto"
+  showReadingTime = "true"
+  showShareButtons = "true"
+  showToc = "true"
+  showBreadCrumbs = "true"
+  showPostNavLinks = "true"
+  showCodeCopyButtons = "true"
+  comments = "true"
