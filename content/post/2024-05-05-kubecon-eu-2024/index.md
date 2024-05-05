@@ -1,5 +1,5 @@
 ---
-title: "Kubecon Eu 2024"
+title: "Kubecon EU 2024"
 date: 2024-05-05T13:08:38+05:30
 # draft: true
 ---
