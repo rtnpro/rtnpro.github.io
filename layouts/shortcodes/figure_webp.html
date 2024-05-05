@@ -1,0 +1,15 @@
+{{ $src := .Get "src"}}
+{{ $image := $.Page.Resources.Get $src }}
+{{ $type_arr := split $src "." }}
+{{ $srcbase := index $type_arr 0 }}
+{{ $image = $image.Resize (printf "%dx%d webp" $image.Width $image.Height) }}
+
+<figure>
+    <picture>
+      <source srcset="{{$image.RelPermalink}}" type="image/webp">
+    <img src="{{.Get `image`}}" alt="{{.Get `alt` }}" defer>
+    </picture>
+    <figcaption>
+    <p class="caption">{{.Get "alt" }}</p>
+    </figcaption>
+</figure>

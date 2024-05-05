@@ -56,7 +56,7 @@ Read more about Crossplane [here](https://docs.crossplane.io/v1.15/).
 
 ## K8GB
 
-![](k8gb.jpeg)
+{{< figure_webp src="k8gb.jpeg" >}}
 
 K8GB, short for Kubernetes Global Balancer, is a tool designed to address the challenge of global load balancing within Kubernetes clusters. It enables efficient distribution of traffic across multiple regions, allowing organizations to optimize performance and reliability for their services worldwide. K8GB provides a solution for managing traffic routing and load balancing across geographically distributed Kubernetes deployments, making it easier to scale applications and ensure high availability for users across different regions.
 
@@ -68,7 +68,7 @@ Read more about K8GB here.
 
 ### ArgoCD
 
-![](argocd.jpeg)
+{{< figure_webp src="argocd.jpeg" >}}
 
 ArgoCD serves as the backbone of our deployment process at Zapier, orchestrating the rollout of our services across Kubernetes clusters. While we've fine-tuned our implementation of ArgoCD to suit our needs, insights from the ArgoCD upstream community have illuminated further avenues for optimization. Specifically, we've identified two key areas for potential enhancement.
 
@@ -88,7 +88,7 @@ It will be worthwhile to explore Codefresh’s ArgoCD or similar managed ArgoCD 
 ### Argo Rollouts
 
 
-![](argo-rollouts.jpeg)
+{{< figure_webp src="argo-rollouts.jpeg" >}}
 
 Argo Rollouts is a Kubernetes controller and set of CRDs that provide advanced deployment capabilities such as blue-green, canary, canary analysis, experimentation, and progressive delivery features to Kubernetes.
 
@@ -118,7 +118,7 @@ Read more about llmnetes [here](https://github.com/llmnetes/llmnetes).
 
 ## Cast AI
 
-![](cast-ai.jpeg)
+{{< figure_webp src="cast-ai.jpeg" >}}
 
 CAST AI is an all-in-one platform for Kubernetes automation, optimization, and cost management. It abstracts layers of provider-specific technical complexity, so you can manage Kubernetes operations on all three major cloud providers with ease.
 
@@ -128,7 +128,7 @@ This is a SaaS product making high cost saving commitments at competitive pricin
 
 ## Karmada
 
-![](karmada.jpeg)
+{{< figure_webp src="karmada.jpeg" >}}
 
 Karmada (Kubernetes Armada), https://karmada.io/, is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds, with no changes to your applications. By using Kubernetes-native APIs and providing advanced scheduling capabilities, Karmada enables truly open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for multi-cluster application management in multi-cloud and hybrid cloud scenarios, with key features such as centralized multi-cloud management, high availability, failure recovery, and traffic scheduling.
 
@@ -143,11 +143,12 @@ KubeDB  https://kubedb.com/ allows users to run production-grade databases on Ku
 As always, it's great to meet friends from the community in a conference like KubeCon.
 It was great to connect to CNCF contributors, mentors and users and learn from them.
 
-![](kubecon_1.jpeg)
-![](kubecon_2.jpeg)
-![](kubecon_3.jpeg)
-![](kubecon_5.jpeg)
-![](kubecon_6.jpeg)
+
+{{< figure_webp src="kubecon_1.jpeg" >}}
+{{< figure_webp src="kubecon_2.jpeg" >}}
+{{< figure_webp src="kubecon_3.jpeg" >}}
+{{< figure_webp src="kubecon_5.jpeg" >}}
+{{< figure_webp src="kubecon_6.jpeg" >}}
 
 # Conclusion
 
