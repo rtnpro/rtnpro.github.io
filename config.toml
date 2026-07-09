@@ -35,9 +35,9 @@ enableEmoji = "true"
 
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = true
+        useEmbedded = "fallback"
       [markup.goldmark.renderHooks.link]
-        enableDefault = true
+        useEmbedded = "fallback"
 
   defaultMarkdownHandler = "goldmark"
 
