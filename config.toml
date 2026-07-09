@@ -45,6 +45,19 @@ enableEmoji = "true"
   home = ["HTML", "RSS", "JSON"]
 
 [params]
+  # NOTE: bare keys must stay ABOVE the [params.*] subtables below.
+  # In TOML a bare key after a table header belongs to that table, so
+  # moving these down silently nests them and they stop taking effect.
+  defaultTheme = "auto"
+  showReadingTime = true
+  showShareButtons = true
+  showToc = true
+  showBreadCrumbs = true
+  showPostNavLinks = true
+  showCodeCopyButtons = true
+  comments = true
+  ShareButtons = ["x", "linkedin", "reddit", "ycombinator"]
+
   [params.homeInfoParams]
     title = "Ratnadeep Debnath | @rtnpro"
     content = "Thinker, creator, wannabe hero"
@@ -54,6 +67,10 @@ enableEmoji = "true"
     url = "https://github.com/rtnpro"
 
   [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/rtnpro"
+
+  [[params.socialIcons]]
     name = "linkedin"
     url = "https://in.linkedin.com/in/rtnpro"
 
@@ -61,11 +78,6 @@ enableEmoji = "true"
     name = "facebook"
     url = "https://www.facebook.com/rtnpro"
 
-  defaultTheme = "auto"
-  showReadingTime = "true"
-  showShareButtons = "true"
-  showToc = "true"
-  showBreadCrumbs = "true"
-  showPostNavLinks = "true"
-  showCodeCopyButtons = "true"
-  comments = "true"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
