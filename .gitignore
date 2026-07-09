@@ -1,0 +1,15 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Hugo module / npm deps
+/node_modules/
+
+# macOS
+.DS_Store
+
+# Editor swap & backup files
+*.swp
+*.swo
+*~
